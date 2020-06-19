@@ -88,8 +88,6 @@ color: #4985FF;
   display: grid;
   grid-template-columns:  34% 34% 34%;
    grid-template-rows: 50% 50%;
-
-
 }
 .img-gallery>img{
   width: 100%;
@@ -115,7 +113,7 @@ color: #4985FF;
 }
 
 
-keyframes loader {
+@keyframes loader {
   0% {transform:rotate(-45deg)}
   50%{transform:rotate(-135deg)}
   100%{transform:rotate(-225deg)}}
@@ -193,14 +191,7 @@ keyframes loader {
   animation: span-4 2s ease-in-out infinite;
 }
 *{box-sizing:border-box}
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-}}
+
 .loader {
   width: 50px;
   height: 50px;
