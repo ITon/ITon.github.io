@@ -13,8 +13,9 @@ body{
 }
 header{
   height: 900px;
-  background: url(../img/Rectangle.jpg) no-repeat;
+  background: url(../img/Rectangle2.jpg) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: white;
 
 
@@ -86,7 +87,7 @@ color: #4985FF;
 }
 .gallery{
   display: grid;
-  grid-template-columns:  34% 34% 34%;
+  grid-template-columns:  33% 33% 33%;
    grid-template-rows: 50% 50%;
 }
 .img-gallery>img{
